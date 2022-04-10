@@ -1,0 +1,38 @@
+body {
+  background: rgba(22, 22, 22, 0.89);
+}
+
+body form {
+  background-color: yellowgreen;
+  border-radius: 8px;
+  width: 80%;
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+form label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+#text-box {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+#text-box input {
+  padding: 0.3rem;
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 0.9rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  background-color: yellow;
+  border-radius: 7px;
+}
